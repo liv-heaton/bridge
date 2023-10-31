@@ -8,7 +8,7 @@ body {
     font-family: 'dollie_script_personal_useRg';
     src: url('dolliescript_personaluse-webfont.woff2') format('woff2'),
          url('dolliescript_personaluse-webfont.woff') format('woff');
-    font-weight: normal;
+    font-weight: 80;
     font-style: normal;
 
 }
@@ -17,7 +17,7 @@ h1 {
   margin-top: 20px;
   margin-bottom: 20px
   background-color: rgb(255,159,240);
-  color: rgb(0,0,0);
+  color: rgb(255,0,127);
   font-size: 100px;
   font-family: "dollie_script_personal_useRg", sans-serif;
 }
