@@ -1,13 +1,14 @@
-<html>
-  <href="https://fonts.googleapis.com/css?family=Rubik">
-  <link rel="stylesheet" href="bridge.css">
-  <body>
-  <h1>Augmented Reality Bridge!</h1>
-  <p>This is a bridge lol</p>
-    <!--<p>has this updated</p>-->
-    <!--are u insane lol-->
-    <p>HELLO SOPHIE VUILLEMIN!</p>
-    
-
+<script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
+  <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+  <!--<script src="js/models.js"></script>-->
+  <!--<script src="js/userState.js"></script>-->
+  <!--<script src="js/interaction.js"></script>-->
+  <body style='margin : 0px; overflow: hidden;'>
+    <div class='speech-bubble'></div>
+    <a-scene embedded arjs cursor="rayOrigin: mouse" accepts-clicks>
+      <a-assets>
+        <a-asset-item id="bridge-obj" src="BridgeV1PINK.obj"></a-asset-item>
+      </a-assets>
+    </a-scene>
   </body>
 </html>
