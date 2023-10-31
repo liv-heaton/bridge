@@ -2,7 +2,15 @@ body {
   background-color: rgb(255,255,255);
   margin: auto;
   text-align: center;
-  font-family: "Rubik", sans-serif;
+}
+
+@font-face {
+    font-family: 'dollie_script_personal_useRg';
+    src: url('dolliescript_personaluse-webfont.woff2') format('woff2'),
+         url('dolliescript_personaluse-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 h1 {
@@ -11,9 +19,11 @@ h1 {
   background-color: rgb(255,159,240);
   color: rgb(0,0,0);
   font-size: 100px;
+  font-family: "dollie_script_personal_useRg", sans-serif;
 }
 p {
   font-size: 50px;
+  font-family: "Rubik", sans-serif;
 }
 h2 {
   font-size: 80px;
