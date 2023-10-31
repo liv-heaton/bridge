@@ -8,7 +8,7 @@ body {
     font-family: 'dollie_script_personal_useRg';
     src: url('dolliescript_personaluse-webfont.woff2') format('woff2'),
          url('dolliescript_personaluse-webfont.woff') format('woff');
-    font-weight: 50;
+    font-weight: 10;
     font-style: normal;
 
 }
